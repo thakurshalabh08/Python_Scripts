@@ -25,9 +25,9 @@ with open(strain_name_file,'r') as list_strain_name:
             
 list_subdirectories=read_subdirectories_names.get_immediate_subdirectories(read_input_dir)
 
-for sub_dir1 in list_subdirectories:
+for sub_dir in list_subdirectories:
     
-    print sub_dir1
+    print sub_dir
             
             
        
